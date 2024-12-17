@@ -166,7 +166,7 @@ var app = new Vue({
     </div>
     <b-row align="center" class="app_column">
         <div>
-            <legend>Daisy Web Programmer</legend>
+            <legend>HiChord Web Programmer</legend>
             <p> Connect to the Daisy - If this is your first time here, follow the steps in Help section below </p>
             <p><b-button variant="es" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
