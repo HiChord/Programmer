@@ -1,43 +1,70 @@
-.info{
+.info {
     text-align: left;
+    color: #0fff00; /* Alien-like neon green */
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #4cff00, #ff00f7, #00e5ff, #fffc00, #00ff87, #ff0080);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #0fff00;
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #ff00f7, #4cff00, #00e5ff, #fffc00, #00ff87, #ff0080);
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid #0fff00;
+    padding: 5px;
 }
 
-code.language-cpp{
-    color: white;
+code.language-cpp {
+    color: #0fff00;
+    background: #000000;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    padding: 2px 5px;
 }
 
-#readme{
-text-align: left;
+#readme {
+    text-align: left;
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #ff0080, #00ff87, #fffc00, #00e5ff, #4cff00, #ff00f7);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #0fff00;
 }
 
-.btn-es{
+.btn-es {
     background-color: #ffb600;
-    color: white;
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+    border: 2px solid #0fff00;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .app_body {
-    color: #fff;
-    background-color: #ffffff;
+    color: #0fff00;
+    background: linear-gradient(135deg, #00ff87, #ff0080, #4cff00, #ff00f7, #00e5ff, #fffc00);
+    font-family: 'Orbitron', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
 }
-
 
 .app_column {
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background-color: #505050;
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #ff00f7, #00e5ff, #fffc00, #00ff87, #ff0080, #4cff00);
     padding: 10px;
-    border: solid;
+    border: 2px solid #0fff00;
     border-radius: 15px;
-    border-color: gray;
     margin: 5px;
 }
 
@@ -46,16 +73,16 @@ text-align: left;
     align-items: left;
     margin: 20px;
     text-align: left;
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .daisystyle {
-    color: #fff;
-    background-color: gray;
+    color: #0fff00;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00e5ff, #fffc00, #00ff87, #ff0080, #4cff00, #ff00f7);
     padding: 10px;
-    border: solid;
+    border: 2px solid #0fff00;
     border-radius: 15px;
-    border-color: #ffb600;
     margin: 5px;
-
 }
-
