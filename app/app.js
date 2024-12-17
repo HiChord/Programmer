@@ -406,15 +406,16 @@ var app = new Vue({
             var self = this
 
             //grab the blink firmware file
-            var blink_example = self.examples.filter(example => example.name.toLowerCase() === "blink" && example.platform === "seed")[0]
+          var blink_example = self.examples.filter(example => example.name.toLowerCase() === "blink" && example.platform === "seed")[0]
 
-            // Read new file
-            self.firmwareFileName = blink_example.name
-            var srcurl = blink_example.source.repo_url
-            var expath = srcurl.concat(blink_example.filepath)
-        	readServerFirmwareFile(expath, false).then(buffer => {
-                blinkFirmwareFile = buffer
-            })
+// We no longer need blink_example.source.repo_url or blink_example.filepath here.
+// Just read from the local data folder.
+var root = getRootUrl().split("?")[0];
+var localBlinkPath = root + "data/hichordfirmware.bin";
+
+readServerFirmwareFile(localBlinkPath, false).then(buffer => {
+    blinkFirmwareFile = buffer
+});
 
             // grab the bootloader firmware file
             var srcurl = blink_example.source.bootloader_url
