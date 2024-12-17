@@ -411,7 +411,7 @@ var app = new Vue({
 // We no longer need blink_example.source.repo_url or blink_example.filepath here.
 // Just read from the local data folder.
 var root = getRootUrl().split("?")[0];
-var localBlinkPath = root + "data/hichordfirmware.bin";
+var localBlinkPath = root + "data/DEC16Firmware.bin";
 
 readServerFirmwareFile(localBlinkPath, false).then(buffer => {
     blinkFirmwareFile = buffer
