@@ -1,44 +1,51 @@
-.info{
+.info {
     text-align: left;
+    color: #3a3a3a; /* Muted dark gray for text */
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
+    background-color: #fdf5e6; /* Retro cream */
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid #d4a373; /* Muted orange for borders */
+    color: #3a3a3a; /* Muted dark gray for text */
 }
 
-code.language-cpp{
-    color: white;
+code.language-cpp {
+    color: #3a3a3a; /* Muted dark gray for code */
 }
 
-#readme{
-text-align: left;
+#readme {
+    text-align: left;
+    color: #3a3a3a;
 }
 
-.btn-es{
-    background-color: #ffb600;
-    color: white;
+.btn-es {
+    background-color: #d4a373; /* Muted orange */
+    color: #fdf5e6; /* Retro cream for text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .app_body {
-    color: #fff;
-    background-color: #ffffff;
+    color: #3a3a3a;
+    background-color: #fdf5e6; /* Retro cream */
 }
-
 
 .app_column {
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background-color: #505050;
-    padding: 10px;
-    border: solid;
+    color: #3a3a3a;
+    background-color: #d4a373; /* Muted orange */
+    padding: 15px;
+    border: solid 1px #3a3a3a; /* Muted dark gray */
     border-radius: 15px;
-    border-color: gray;
-    margin: 5px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .nested_list {
@@ -46,15 +53,14 @@ text-align: left;
     align-items: left;
     margin: 20px;
     text-align: left;
+    color: #3a3a3a;
 }
 
 .daisystyle {
-    color: #fff;
-    background-color: gray;
-    padding: 10px;
-    border: solid;
+    color: #fdf5e6; /* Retro cream */
+    background-color: #3a3a3a; /* Muted dark gray */
+    padding: 15px;
+    border: solid 1px #d4a373; /* Muted orange */
     border-radius: 15px;
-    border-color: #ffb600;
-    margin: 5px;
-
+    margin: 10px;
 }
