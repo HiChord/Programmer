@@ -1,17 +1,8 @@
-:root {
-    --primary-color: #f76c6c; /* Retro red-orange */
-    --secondary-color: #5cdb95; /* Muted mint green */
-    --accent-color: #ffe156; /* Golden yellow for accents */
-    --background-color: #2b2d42; /* Deep retro gray-blue */
-    --text-color: #edf2f4; /* Light cream */
-    --border-color: #8d99ae; /* Soft gray for borders */
-}
-
 .info {
     text-align: left;
     font-size: 1rem;
-    line-height: 1.6;
-    color: var(--text-color);
+    line-height: 1.5;
+    color: #333; /* No change needed */
 }
 
 table {
@@ -19,62 +10,58 @@ table {
     width: 100%;
     margin: 20px 0;
     font-size: 1rem;
-    color: var(--text-color);
+    color: #333; /* No change needed */
 }
 
 table, th, td {
-    border: 1px solid var(--border-color);
-    padding: 12px;
+    border: 1px solid #d4d4d4; /* Retro cream/offwhite */
+    padding: 10px;
     text-align: left;
 }
 
 table th {
-    background-color: var(--secondary-color);
-    color: var(--background-color);
+    background-color: #fefbe7; /* Retro cream/offwhite */
     font-weight: bold;
 }
 
 table tr:nth-child(even) {
-    background-color: var(--background-color);
+    background-color: #fbf7e4; /* Lighter retro cream/offwhite */
 }
 
 code.language-cpp {
-    color: var(--accent-color);
-    background-color: var(--background-color);
-    padding: 3px 6px;
-    border-radius: 5px;
+    color: #ff4500; /* Bright red */
+    background-color: #2e2e2e;
+    padding: 2px 5px;
+    border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #readme {
     text-align: left;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.8;
-    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
 .btn-es {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    padding: 12px 24px;
+    background-color: #ff4500; /* Red */
+    color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
 .btn-es:hover {
-    background-color: var(--accent-color);
-    transform: scale(1.05);
+    background-color: #d93800; /* Darker red */
 }
 
 .app_body {
-    color: var(--text-color);
-    background-color: var(--background-color);
-    font-family: 'Roboto', sans-serif;
+    color: #333; /* No change needed */
+    background-color: #fefbe7; /* Retro cream/offwhite */
+    font-family: 'Arial', sans-serif;
     padding: 20px;
 }
 
@@ -83,18 +70,13 @@ code.language-cpp {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--text-color);
-    background-color: var(--primary-color);
+    color: #fff;
+    background-color: #d4d4d4; /* Retro cream/offwhite */
     padding: 20px;
-    border: 2px solid var(--secondary-color);
+    border: 1px solid #d4d4d4; /* Matching retro cream/offwhite */
     border-radius: 15px;
     margin: 10px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-.app_column:hover {
-    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nested_list {
@@ -103,22 +85,21 @@ code.language-cpp {
     align-items: flex-start;
     margin: 20px;
     text-align: left;
-    list-style-type: circle;
-    padding-left: 25px;
-    color: var(--text-color);
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .daisystyle {
-    color: var(--text-color);
-    background-color: var(--secondary-color);
+    color: #fff;
+    background-color: #333; /* No change needed */
     padding: 15px;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #ff4500; /* Red */
     border-radius: 15px;
     margin: 10px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .daisystyle:hover {
-    background-color: var(--accent-color);
+    background-color: #d4d4d4; /* Retro cream/offwhite */
     transform: scale(1.05);
 }
