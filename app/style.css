@@ -1,51 +1,43 @@
 .info {
     text-align: left;
-    color: #3a3a3a; /* Muted dark gray for text */
 }
 
 table {
     border-collapse: collapse;
-    background-color: #fdf5e6; /* Retro cream */
 }
 
 table, th, td {
-    border: 1px solid #d4a373; /* Muted orange for borders */
-    color: #3a3a3a; /* Muted dark gray for text */
+    border: 1px solid #f5f5f5; /* Off-white */
 }
 
 code.language-cpp {
-    color: #3a3a3a; /* Muted dark gray for code */
+    color: #f5f5f5; /* Off-white */
 }
 
 #readme {
     text-align: left;
-    color: #3a3a3a;
 }
 
 .btn-es {
-    background-color: #d4a373; /* Muted orange */
-    color: #fdf5e6; /* Retro cream for text */
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
+    background-color: #cc5500; /* Burnt orange */
+    color: #f5f5f5; /* Off-white */
 }
 
 .app_body {
-    color: #3a3a3a;
-    background-color: #fdf5e6; /* Retro cream */
+    color: #f5f5f5; /* Off-white */
+    background-color: #fff; /* White */
 }
 
 .app_column {
     align-items: center;
     justify-content: center;
-    color: #3a3a3a;
-    background-color: #d4a373; /* Muted orange */
-    padding: 15px;
-    border: solid 1px #3a3a3a; /* Muted dark gray */
+    color: #f5f5f5; /* Off-white */
+    background-color: #505050; /* Gray */
+    padding: 10px;
+    border: solid;
     border-radius: 15px;
-    margin: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-color: #cc5500; /* Burnt orange */
+    margin: 5px;
 }
 
 .nested_list {
@@ -53,14 +45,14 @@ code.language-cpp {
     align-items: left;
     margin: 20px;
     text-align: left;
-    color: #3a3a3a;
 }
 
 .daisystyle {
-    color: #fdf5e6; /* Retro cream */
-    background-color: #3a3a3a; /* Muted dark gray */
-    padding: 15px;
-    border: solid 1px #d4a373; /* Muted orange */
+    color: #f5f5f5; /* Off-white */
+    background-color: #505050; /* Gray */
+    padding: 10px;
+    border: solid;
     border-radius: 15px;
-    margin: 10px;
+    border-color: #cc5500; /* Burnt orange */
+    margin: 5px;
 }
