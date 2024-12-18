@@ -258,12 +258,17 @@ var app = new Vue({
             <b-col align="center" class="app_column">
                 <b-container align="center">
                     <legend>Programming Section</legend>
-                    <b-button id="download" variant='es' :disabled="no_device || !sel_example"> Program</b-button>
+                    <!-- Hidden "Program" Button -->
+                    <b-button id="download" variant='es' :disabled="no_device || !sel_example" hidden> Program</b-button>
 
                     <br> <br>
-                    <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+                    <!-- Hidden "Advanced..." Button -->
+                    <b-button variant="es" v-b-toggle.collapseAdvanced hidden>Advanced...</b-button>
                     <b-collapse id="collapseAdvanced">
-                        <br> <div> <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
+                        <br> 
+                        <div> 
+                            <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> 
+                        </div>                        
                     </b-collapse>
 
                     <div class="log" id="downloadLog"></div>            
@@ -281,13 +286,13 @@ var app = new Vue({
             </b-col>
         </b-row>
     </b-row>        
-    
+
     </b-container>
     `,
     data: data,
     computed: {
         platformExamples: function () {
-        	
+            
             return this.examples.filter(example => example.platform === this.sel_platform)
         }
     },
