@@ -1,58 +1,105 @@
 .info {
     text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
 }
 
 table {
     border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #333;
 }
 
 table, th, td {
-    border: 1px solid #444444; /* Deep charcoal */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
 code.language-cpp {
-    color: #ffcc00; /* Vibrant yellow */
+    color: #ffb600;
+    background-color: #2e2e2e;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #readme {
     text-align: left;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .btn-es {
-    background-color: #ff4500; /* Bright fiery orange */
-    color: #ffffff; /* Pure white */
+    background-color: #ffb600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-es:hover {
+    background-color: #e6a800;
 }
 
 .app_body {
-    color: #ffffff; /* Pure white */
-    background-color: #1e1e1e; /* Rich black */
+    color: #333;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
 }
 
 .app_column {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #ffffff; /* Pure white */
-    background-color: #222222; /* Dark slate */
-    padding: 10px;
-    border: solid;
+    color: #fff;
+    background-color: #505050;
+    padding: 20px;
+    border: 1px solid #ccc;
     border-radius: 15px;
-    border-color: #ff4500; /* Bright fiery orange */
-    margin: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nested_list {
-    justify-content: left;
-    align-items: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 20px;
     text-align: left;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .daisystyle {
-    color: #ffffff; /* Pure white */
-    background-color: #333333; /* Deep gray */
-    padding: 10px;
-    border: solid;
+    color: #fff;
+    background-color: #333;
+    padding: 15px;
+    border: 2px solid #ffb600;
     border-radius: 15px;
-    border-color: #ff4500; /* Bright fiery orange */
-    margin: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.daisystyle:hover {
+    background-color: #505050;
+    transform: scale(1.05);
 }
